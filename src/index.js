@@ -2,6 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const express = require("express");
 const app = express();
+app.use(cors())
 require("dotenv/config");
 
 const Port = process.env.PORT || 3000;

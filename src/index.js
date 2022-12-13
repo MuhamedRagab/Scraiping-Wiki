@@ -23,7 +23,7 @@ const extrectRows = ($) =>
         name,
       };
   });
-  
+
 async function scrap() {
   try {
     const rows = await axios.get(url).then(({ data }) => {
